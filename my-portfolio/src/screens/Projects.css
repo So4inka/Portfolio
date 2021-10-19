@@ -1,0 +1,136 @@
+.projects {
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #b2b5b8;
+  font-family: 'Dosis', sans-serif;
+  padding-top: 100px;
+}
+
+.projects-text-container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.projects-subtitle {
+  color: white;
+  font-size: 86px;
+  line-height: 100px;
+  text-shadow: 2px 2px #4aa4ab;
+  margin-bottom: 0px;
+}
+
+.projects-text {
+  color: #3a7776;
+}
+
+.mainscreen-container {
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+  width: 90%;
+  margin: 0 auto;  
+  margin-top: 50px;
+}
+
+.mainscreen-images {
+  z-index: 90;
+  width: 350px;
+  height: 350px;
+  opacity: .8;
+  background-size: cover;
+  /* border-radius: 10%; */
+  border: 1px solid white;
+  margin: 20px 40px 20px 40px;
+  background-repeat: no-repeat;
+}
+
+.mainscreen-images:hover {
+  opacity: 1;
+}
+
+.mainscreen-text-container {
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+  align-content: center;
+  height: 325px;
+}
+
+.mainscreen-text {
+  z-index: 100;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 800;
+  font-size: 25px;
+  text-shadow: 2px 2px #e2eef1;
+}
+
+.portfolio-link {
+  text-decoration: none;
+  color: white;
+}
+
+/* Responsive Design */
+
+@media only screen and (max-width: 600px) {
+
+  .projects {
+    padding-top: 50px;
+  }
+  
+  .projects-text-container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .mainscreen-container {
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+    width: 100%;
+    margin: 0 auto;  
+    margin-top: 50px;
+  }
+
+  .portfolio-subtitle {
+    font-size: 50px;
+  }
+  
+  .mainscreen-images {
+    width: 300px;
+    height: 300px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  .mainscreen-text-container {
+    height: 300px;
+  }
+  
+  .mainscreen-text {
+    z-index: 100;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 800;
+    font-size: 25px;
+    text-shadow: 2px 2px #78b3b8;
+  }
+  
+  .portfolio-link {
+    width: 300px;
+    text-decoration: none;
+    color: white;
+  }
+
+}

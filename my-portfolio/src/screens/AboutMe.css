@@ -1,0 +1,64 @@
+.about-me {
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #b2b5b8;
+  font-family: 'Dosis', sans-serif;
+  padding-top: 100px;
+}
+.proj-name {
+  display:center ;
+}
+.about-me-container {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.about-column {
+  width: 50%
+}
+
+.about-column-a {
+  text-align: center;
+}
+
+#aboutme-text {
+  color: white;
+  font-size: 20px;
+}
+
+.profile-pic {
+  width: 80%;
+  background-position: center;
+  border: 1px solid white;
+  /* border-radius: 50%; */
+}
+
+/* Responsive Design */
+
+@media only screen and (max-width: 600px) {
+
+  .about-me {
+    padding-top: 50px;
+  }
+  
+  .about-me-container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  
+  .about-column {
+    width: 100%
+  }
+  
+  .resume-button {
+    margin-bottom: 20px;
+  }
+}
