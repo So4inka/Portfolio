@@ -28,7 +28,7 @@ function ProjectInfo(props) {
             <h3 className='subtext'>BUILT WITH</h3>
             <p className='text'>{project && project.fields.languages}</p>
             <div className='details-button-container'>
-            <a className='details-button-containers' rel="noreferrer" target="_blank" href={project && project.fields.github}>SEE CODE <img id='github' src="https://i.imgur.com/JMMrIY8.png" alt="github" alt="github"/></a>
+            <a className='details-button-containers' rel="noreferrer" target="_blank" href={project && project.fields.github}>SEE CODE <img id='github' src="https://i.imgur.com/JMMrIY8.png" alt="github"/></a>
             <a className='details-button-containers' rel="noreferrer" target="_blank" href={project && project.fields.website}>VISIT WEBSITE <img id='external-link' alt="website" /></a> 
             </div>
             

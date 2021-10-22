@@ -19,7 +19,7 @@ function AboutMe(props) {
               I'm passionate about creating beautiful work combining front end and back end.
               I have an experience to work by myself
               as well with a group on projects that showcased my experience. I am excited and eager to
-              contribute and also learn in tech inductry.
+              contribute and also learn in tech industry.
             
             </p>
 

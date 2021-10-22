@@ -11,7 +11,7 @@ import ContactMe from './screens/ContactMe';
 function App() {
 
   const [listItems, setListItems] = useState("")
-  const [fetchItems, setFetchItems] = useState(false);
+  const [fetchItems] = useState(false);
   
   useEffect(() => {
     const getListItems = async () => {
