@@ -20,7 +20,9 @@ function Projects(props) {
           {props.listItems && (
             <div className="mainscreen-container">
               {props.listItems.map((item) => (
-                <Link className="portfolio-link" to={`/project/${item.fields.name}`}
+                <Link
+                  className="portfolio-link"
+                  to={`/project/${item.id}`}
                 >
                   <div
                     className="mainscreen-images"

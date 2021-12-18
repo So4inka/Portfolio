@@ -15,7 +15,7 @@ function AboutMe(props) {
             <img
               alt=""
               className="profile-pic"
-              src="https://i.imgur.com/6aBXEQG.jpg"
+              src="https://i.imgur.com/QrrZ7FK.jpg"
             />
           </section>
           <section className="about-me">

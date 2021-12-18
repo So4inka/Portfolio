@@ -18,7 +18,7 @@
 #homepage-title {
   display: flex;
   align-items: flex-front;
-  width: 550px;
+  width: 450px;
   margin-bottom: 0;
   font-size: 86px;
   color: white;
@@ -28,14 +28,21 @@
 
 #homepage-subtitle {
   display: flex;
+  line-height: 50px;
   align-items: flex-end;
   align-content: flex-end;
-  width: 200px;  
+  width: 100px;  
   margin-bottom: 0;
   font-size: 33px;
-  color: #d6f9ff;
+  color: hsl(179, 42%, 45%);
 }
-
+#greeting {
+  display:flex;
+  flex-direction: column;
+  margin-top: 30px;
+  width: 50%;
+  align-items: center;
+}
 
 /* Responsive Design */
 

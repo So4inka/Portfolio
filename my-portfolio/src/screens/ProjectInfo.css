@@ -4,12 +4,12 @@
   min-height: 100vh;
   justify-content: center;
   flex-direction: column;
-  background-color: #b2b5b8;
-  font-family: 'Dosis', sans-serif;
+  background-color: #c6cdd5;
+  font-family: "Dosis", sans-serif;
   padding-top: 120px;
 }
 
-.proj-name {
+.project-name {
   color: white;
   font-size: 86px;
   line-height: 80px;
@@ -38,7 +38,7 @@
 }
 
 .subtext {
-  color:  #d6fcff;
+  color: #d6fcff;
   font-size: 24px;
 }
 
@@ -49,9 +49,9 @@
 }
 
 .details-button-container {
- display: flex;
- justify-content: space-between;
- margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
 }
 
 .details-button-containers {
@@ -63,7 +63,7 @@
   padding: 10px 0px 10px 0px;
   border: 1px solid;
   border-radius: 10px;
-  color:#7ec2cb;
+  color: #7ec2cb;
   text-decoration: none;
   font-weight: bold;
   text-shadow: 2px 2px white;
@@ -83,26 +83,25 @@
   margin-left: 8px;
 }
 
-
 /* Responsive Design*/
 
 @media only screen and (max-width: 600px) {
   .project-details {
     padding-top: 50px;
   }
-  
+
   .project-name {
     font-size: 50px;
     line-height: 80px;
   }
-  
+
   .project-details-container {
     height: 100%;
     display: flex;
     flex-direction: column;
     width: 100%;
   }
-  
+
   .column {
     width: 100%;
     display: flex;
@@ -118,32 +117,27 @@
     margin-left: 10px;
     margin-right: 10px;
   }
-  
+
   .details-button-container {
-   display: flex;
-   justify-content: space-between;
-   flex-direction: column;
-   margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 40px;
   }
-  
+
   .details-button-containers {
     width: 60%;
     margin: 0 auto;
     margin-bottom: 5px;
   }
-  
+
   .details-button-containers:hover {
     font-size: large;
   }
-  
+
   #github {
     width: 30px;
     margin-left: 8px;
   }
-  
-  #external-link {
-    width: 25px;
-    margin-left: 8px;
-  }
-  
+
 }

@@ -6,7 +6,7 @@ import Footer from "../components/Footer";
 
 function ProjectInfo(props) {
   const { id } = useParams();
-  const project = props.listItems.find((project) => project.fields.id === id);
+  const project = props.listItems.find((project) => project.id === id);
   return !project ? (
     <h1>Loading...</h1>
   ) : (
@@ -55,8 +55,8 @@ function ProjectInfo(props) {
                 rel="noreferrer"
                 target="_blank"
                 href={project && project.fields.website}
-              >
-                VISIT WEBSITE <img id="external-link" alt="website" />
+              >VISIT WEBSITE
+                {/* VISIT WEBSITE <img id="external-link" alt="website" /> */}
               </a>
             </div>
           </section>

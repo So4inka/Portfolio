@@ -10,7 +10,7 @@ import ContactMe from './screens/ContactMe';
 
 function App() {
 
-  const [listItems, setListItems] = useState("")
+  const [listItems, setListItems] = useState([])
   const [fetchItems] = useState(false);
   
   useEffect(() => {
@@ -36,7 +36,7 @@ function App() {
 
         <Route path="/about-me" component={AboutMe} />
 
-        <Route path="/project/:name">
+        <Route path="/project/:id">
           <ProjectInfo listItems={listItems}/>
         </Route>
 

@@ -11,7 +11,7 @@ function Home(props) {
           <h1 id="greeting">Hi, I am</h1>
           <bd/>
           <h1 id="homepage-title">Nadiya Kallaur</h1>
-          <h2 id="homepage-subtitle">JUNIOR SOFTWARE ENGINEER</h2>
+          <h2 id="homepage-subtitle">SOFTWARE ENGINEER</h2>
         </div>
         <div className="explore-container">
         </div>
