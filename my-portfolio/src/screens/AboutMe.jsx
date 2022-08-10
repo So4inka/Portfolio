@@ -8,10 +8,10 @@ function AboutMe(props) {
     <div>
       <Navbar />
       <div className="about-me">
-        <h2 className="proj-name">About Me</h2>
+        <h2 className="about-name">About Me</h2>
 
         <div className="about-me-container">
-          <section className="about-column about-column-a">
+          <section className="about-column">
             <img
               alt=""
               className="profile-pic"
@@ -20,11 +20,11 @@ function AboutMe(props) {
           </section>
           <section className="about-me">
             <p id="aboutme-text">
-              Hello, I am Nadia. I am a Software Engineer. I'm passionate about
-              creating beautiful work combining front end and back end. I have
-              an experience to work by myself as well with a group on projects
-              that showcased my experience. I am excited and eager to contribute
-              and also learn in tech industry.
+              Hello, I am Nadiya. I am detail-oriented Software Engineer.
+              My technical skills include JavaScript, Ruby on rails, React, jQuery, Node, Express, MongoDB, HTML, CSS, Bootstrap, Material UI, APIs, etc.
+              <br/>
+                   I'm passionate about
+              creating beautiful work combining front end and back end. 
             </p>
 
             <div className="details-button-container">
@@ -32,7 +32,7 @@ function AboutMe(props) {
                 className="details-button-containers resume-button"
                 rel="noreferrer"
                 target="_blank"
-                href="file:///Users/nadezdakallaur/Downloads/_Resume%20of%20Nadezda%20Kallaur_10_21.pdf"
+                href="https://docs.google.com/document/d/19z_0NvOQgsBWC0xRgv5CwQdndtQXQWemeFS_pJVsr2I/edit#heading=h.5idyb81x68u1"
               >
                 RESUME
               </a>

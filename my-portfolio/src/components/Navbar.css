@@ -2,14 +2,15 @@
   width: 100%;
   position: fixed;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-evenly;
   align-items: center;
   top: 0;
   right: 0px;
   height: 50px;
   z-index: 5;
   font-family: 'Dosis', sans-serif;
-  background-color: #9ac4c9;
+  background-color: #93c8ce;
+  /* background-color: #9ac4c9; */
 }
 
 .nav {
@@ -32,11 +33,11 @@
   .navbar {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     height: 45px;
     z-index: 5;
     font-family: 'Dosis', sans-serif;
-    background-color: #9ac4c9;
+    background-color: #93c8ce;
   }
   
   .nav {

@@ -8,7 +8,7 @@ function Home(props) {
       <header id="header">
       <Navbar />
         <div className="homepage-title">
-          <h1 id="greeting">Hi, I am</h1>
+          <h1 id="greeting">Hello, 👋 I am</h1>
           <bd/>
           <h1 id="homepage-title">Nadiya Kallaur</h1>
           <h2 id="homepage-subtitle">SOFTWARE ENGINEER</h2>
